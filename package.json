@@ -1,0 +1,20 @@
+{
+  "name": "myfrontendframework",
+  "version": "1.0.0",
+  "description": "Building a frontend framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve:examples": "npx http-server . -o ./examples/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "workspaces":[
+    "packages/runtime",
+    "packages/compiler",
+    "packages/loader"
+  ]
+}
+
